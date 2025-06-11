@@ -73,10 +73,6 @@ const Hero = () => {
               containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
               imgSrc='/hero/developer5.png'
             />
-            <DevImg
-              containerStyles='relative w-[300px] h-[300px]'
-              imgSrc='https://via.placeholder.com/300'
-            />
 
           </div>
         </div>
