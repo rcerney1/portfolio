@@ -12,7 +12,7 @@ const Form = () => {
       method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-      action="/success" // optional, can be '/' or a success page
+      action="/" 
       className="flex flex-col gap-y-4"
     >
       {/* hidden input Netlify requires */}
