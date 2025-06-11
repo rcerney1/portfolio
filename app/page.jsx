@@ -9,12 +9,6 @@ import Cta from '@/components/Cta';
 export default function Home() {
   return (
     <main>
-      <form name="contact3" data-netlify="true" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message" />
-      </form>
-
       <Hero />
       <About />
       <Services />
