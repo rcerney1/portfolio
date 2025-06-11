@@ -80,6 +80,7 @@ const Hero = () => {
           <RiArrowDownSLine className='text-3xl text-primary' />
         </div>
       </div>
+      <img src="/hero/developer5.png" alt="test" width="100" />
     </section>
   );
 };
