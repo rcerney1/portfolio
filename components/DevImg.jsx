@@ -1,16 +1,7 @@
-import Image from 'next/image';
-
-const DevImg = ({ containerStyles, imgSrc }) => {
+const DevImg = ({ imgSrc }) => {
   return (
-    <div className={`${containerStyles} relative w-[300px] h-[300px]`}>
-      <Image
-        src={imgSrc}
-        alt='developer'
-        fill
-        sizes='(max-width: 768px) 100vw, 300px'
-        className='object-contain'
-        priority
-      />
+    <div style={{ width: '300px', height: 'auto' }}>
+      <img src={imgSrc} alt='developer' style={{ width: '100%' }} />
     </div>
   );
 };
