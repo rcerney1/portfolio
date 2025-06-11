@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const DevImg = ({ containerStyles, imgSrc }) => {
   return (
-    <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt='' />
+    <div className={`${containerStyles} relative w-full h-full`}>
+      <Image src={imgSrc} fill priority alt='Developer Image' />
     </div>
   );
 };
