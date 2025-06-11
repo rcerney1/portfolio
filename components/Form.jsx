@@ -7,8 +7,8 @@ import { User, MailIcon, ArrowRightIcon, MessageSquare } from 'lucide-react';
 
 const Form = () => {
   return (
-    
-      <form name="contact" className='flex flex-col gap-y-4' netlify>
+    <>
+      <form name="contact" className='flex flex-col gap-y-4' netlify method="POST">
         {/* input */}
         <div className='relative flex items-center'>
           <Input type='name' id='name' placeholder='Name' />
@@ -29,7 +29,18 @@ const Form = () => {
           <ArrowRightIcon size={20} />
         </Button>
       </form>
-    
+      <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </>
 
   );
 };
