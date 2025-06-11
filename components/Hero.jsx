@@ -71,7 +71,7 @@ const Hero = () => {
             <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
             <DevImg
               containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
-              imgSrc='/hero/developer5.png'
+              imgSrc='/hero/hero-bg.png'
             />
           </div>
         </div>
@@ -80,7 +80,7 @@ const Hero = () => {
           <RiArrowDownSLine className='text-3xl text-primary' />
         </div>
       </div>
-      <img src="/hero/developer5.png" alt="test" width="100" />
+      
     </section>
   );
 };
