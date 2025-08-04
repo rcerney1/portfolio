@@ -22,7 +22,7 @@ const Hero = () => {
           {/* text */}
           <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
             <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
-              Websites That Work
+              i make websites
             </div>
             <h1 className='h1 mb-4'>Simple, modern sites that bring you more customers</h1>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
@@ -54,7 +54,7 @@ const Hero = () => {
             />
             {/* badge 2 */}
             <Badge
-              containerStyles='absolute top-[80%] -left-[1rem]'
+              containerStyles='absolute top-[80%] -left-[1rem] text-center'
               icon={<RiTodoFill size={20}/>}
               endCountNum={7}
               endCountText=''
@@ -62,7 +62,7 @@ const Hero = () => {
             />
             {/* badge 3 */}
             <Badge
-              containerStyles='absolute top-[55%] -right-7 !w-[220px]'
+              containerStyles='absolute top-[55%] -right-12 !w-[220px]'
               icon={<RiTeamFill />}
               endCountNum={100}
               endCountText='%'
