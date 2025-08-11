@@ -19,8 +19,17 @@ const projectData = [
     name: 'Redwood Engineering Construction',
     description:
       'Designed and built a responsive website for a Bay Area construction firm, featuring service pages, project highlights, and company credentials.',
-    link: '/',
-    github: '/',
+    link: 'http://redwoodengineeringcon.com/',
+    github: 'https://github.com/rcerney1/redwood_construction',
+  },
+  {
+    image: '/work/modesto.webp',
+    category: 'react js',
+    name: 'Modesto Paint Pros',
+    description:
+      'Designed and developed a responsive website for a Modesto-based painting company, featuring service pages, project gallery, SEO optimization, and a contact form.',
+    link: 'http://www.modestopaintpros.com',
+    github: 'https://github.com/rcerney1/modesto-paint-pros',
   },
 ];
 
