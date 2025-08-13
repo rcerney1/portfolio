@@ -34,6 +34,15 @@ const projectData = [
     link: '/',
     github: '/',
   },
+  {
+    image: '/work/modesto.webp',
+    category: 'react js',
+    name: 'Modesto Paint Pros',
+    description:
+      'Designed and developed a responsive website for a Modesto-based painting company, featuring service pages, project gallery, SEO optimization, and a contact form.',
+    link: 'http://www.modestopaintpros.com',
+    github: 'https://github.com/rcerney1/modesto-paint-pros',
+  }
   
 ];
 
